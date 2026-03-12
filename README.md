@@ -9,11 +9,14 @@
 ```
 📁 project/
 │
-├── shiny_dashboard_full_data.R    # 主应用脚本（运行此文件即可）
+├── Full_Data.R    # 主应用脚本（运行此文件即可）
 ├── Full_Data.csv                  # 原始数据集
-├── ccg map/                       # 存放 CCG 边界 shapefile（用于地图）
-└── www/
-    └── static/gp_tmap.html        # 地图文件（自动生成）
+├── ccg map/                       # 存放 CCG 边界 shapefile，地图文件
+    └── CCG_APR_2021_EN_BFC.cpg
+    └── CCG_APR_2021_EN_BFC.dbf
+    └── CCG_APR_2021_EN_BFC.prj
+    └── CCG_APR_2021_EN_BFC.shp
+    └── CCG_APR_2021_EN_BFC.shx     
 ```
 
 ---
